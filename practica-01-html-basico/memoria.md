@@ -10,6 +10,7 @@
 1. Primer paso
 2. Segundo paso
 3. Tercer paso
+   
 [Memoria de la práctica 1] (./practica-01-html-basico/memoria.md)
 ![Captura del resultado final]
 Para centrar un elemento se usa la propiedad `text-align`.
@@ -17,6 +18,7 @@ Para centrar un elemento se usa la propiedad `text-align`.
 <h1>Hola mundo</h1>
 ```
 > Esto es una cita o una nota destacada.
+
 | Práctica  | Fecha  | Estado  |
 | ----------|--------|---------|
 | Práctica 1 | 10/09/2023 | Terminada |
