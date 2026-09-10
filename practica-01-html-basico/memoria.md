@@ -13,7 +13,8 @@
    
 [Memoria de la práctica 1] (./practica-01-html-basico/memoria.md)
 
-![Captura del resultado final]
+![Captura del resultado final] (https://www.magnific.com/es/fotos-vectores-gratis/tierra-dibujo)
+
 Para centrar un elemento se usa la propiedad `text-align`.
 ```html
 <h1>Hola mundo</h1>
