@@ -12,6 +12,7 @@
 3. Tercer paso
    
 [Memoria de la práctica 1] (./practica-01-html-basico/memoria.md)
+
 ![Captura del resultado final]
 Para centrar un elemento se usa la propiedad `text-align`.
 ```html
