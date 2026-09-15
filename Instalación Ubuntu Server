@@ -1,0 +1,11 @@
+# Instalación Ubuntu Server
+
+1. Primer paso: Instalar la ISO de Ubunto
+
+2. Segundo paso: Abrir Virutalbox y darle a la opción de nueva, ahi añadiremos nuestra nueva ISO
+
+3. Tercer paso: Hay que subir la ISO en su apartado y seguidamente tenemos que activar la opción de "Proceed with Unattended Installation"
+
+4. Cuarto paso: Ahora ajustamos la RAM y el almacenamiento, nosotros hemos subido el procesador a 2 y el almacenamiento a 15gb como estaba por defecto, y le damos a finalizar para crear la maquina virtual
+
+Nosotros en nuestro caso hemos tenido un error
