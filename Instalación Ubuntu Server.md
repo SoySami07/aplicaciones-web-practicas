@@ -9,4 +9,5 @@
 4. Cuarto paso: Ahora ajustamos la RAM y el almacenamiento, nosotros hemos subido el procesador a 2 y el almacenamiento a 15gb como estaba por defecto, y le damos a finalizar para crear la maquina virtual
 
 Nosotros en nuestro caso hemos tenido un error
-file:///home/vespre/Imatges/Captura%20de%202026-09-15%2016-33-00.png
+
+<img width="970" height="733" alt="Captura de 2026-09-15 16-33-00" src="https://github.com/user-attachments/assets/3412323f-4851-43b0-b854-065b4ac3fee8" />
