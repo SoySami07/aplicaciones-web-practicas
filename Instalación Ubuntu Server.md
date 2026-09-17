@@ -11,3 +11,7 @@
 Nosotros en nuestro caso hemos tenido un error
 
 <img width="970" height="733" alt="Captura de 2026-09-15 16-33-00" src="https://github.com/user-attachments/assets/3412323f-4851-43b0-b854-065b4ac3fee8" />
+
+
+5. Vamos a ir con la configuración básica, como idioma, red, alamacemaiento y demás
+<img width="1920" height="1080" alt="Captura de 2026-09-17 17-45-13" src="https://github.com/user-attachments/assets/8291d469-f665-416a-9a0e-2561e05e622d" />
