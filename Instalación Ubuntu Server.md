@@ -31,3 +31,7 @@ Nosotros en nuestro caso hemos tenido un error
 
 9. Y poner nuestra contraseña de nuevo
 <img width="1920" height="1080" alt="Captura de 2026-09-17 18-03-03" src="https://github.com/user-attachments/assets/3bde311c-98f3-4645-93cd-55c87baad850" />
+
+Ahora fijamos la IP de la interfaz neplan
+<img width="1920" height="1080" alt="Captura de 2026-09-24 17-44-31" src="https://github.com/user-attachments/assets/f9ba5cb8-48a0-46f0-94c9-321c5eab7262" />
+
