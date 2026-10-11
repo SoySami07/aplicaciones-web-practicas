@@ -41,4 +41,11 @@ Ahora fijamos la IP de la interfaz neplan
 2. Pulsamos en crear y hacemos doble clic en servidor DHCP y lo deshabilitamos y aplicamos
 3. En configuración de la máquina vamos al apartado de red y seleccionamos el segundo adaptador. Para habilitarlo y lo conectamos a Adaptador only, y ya aceptamos e iniciamos de nuevo la máquina
 4. Ponemos el comando ls /etc/netplan y vemos el archivo para editar la IP
-5. Y ponemos sudo nano y el archivo, luego escribimos enp0s8
+5. Y ponemos sudo nano y el archivo, luego escribimos enp0s8 y debajo dhcp4: false. Luego debajo escribimos addresses y debajo la IP
+6. Y ya salimos y escribimos sudo netplan try y le damos al enter
+
+## Conectarnos desde la máquina real
+
+1. Tenemos que comprobar que tenemos conectividad haciendo ping en la IP que hemos configurado antes
+2. Luego comprobamos que tenemos conectividad y escribimos ssh Usuario@ip del servidor
+3. Y por último escribimos la contraseña de la MV y ya lo tendríamos
