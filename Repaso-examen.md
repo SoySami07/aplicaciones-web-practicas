@@ -63,3 +63,4 @@
 8. Y entramos en el archivo smr.conf y cambiamos el Virtual Host a 7654 y volvemos a poner reload.
 9. Y ahora ponemos el archivo ports de apache2 y añadimos Listen 7654 y volvemos a hacer reload.
 
+
