@@ -44,3 +44,22 @@
 
 ## Instalación Apache2
 
+1. Lo primero es poner el comando sudo apt-get install apache2.
+2. Y seguidamente systemctl status apache2, así comprobamos el estado del servicio.
+3. Aora ponemos a cd /etc/apache2.
+4. Y entramos en la carpeta de sites-available y entramos en el archivo 000-default y vamos a la ruta donde indica donde está nuestra página.
+5. Cuando entramos al archivo de la ruta lo que escribimos en HTML es lo que va a aparecer en la página.
+
+
+## Deshabilitar la antigua página y crear una nueva página
+
+1. En el sites-available tenemos el archivo 000 lo duplicamos y lo llamamos smr.conf
+2. Editaremos el archivo duplicado y donde está la ruta añadimos /smr.
+3. Ahora vamos a la ruta /var/www/html y con mkdir creamos la carpeta smr.
+4. dentro de esa carpeta creamos con el comando nano un fichero llamado index.html y añadiremos lo que queramos que se vea en la web.
+5. Volvemos donde está instalado apache y entramos a sites-available y desactivamos el dichero antiguo con a2dissite 00.
+6. Ahora ponemos un systmenctl reload apache2 y seguidamente un status.
+7. Seguidamente ponemos a2ensite smr.conf para habilitar la nueva página y pondremos otra vez reload y status.
+8. Y entramos en el archivo smr.conf y cambiamos el Virtual Host a 7654 y volvemos a poner reload.
+9. Y ahora ponemos el archivo ports de apache2 y añadimos Listen 7654 y volvemos a hacer reload.
+
