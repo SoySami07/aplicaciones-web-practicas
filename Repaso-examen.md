@@ -64,3 +64,32 @@
 9. Y ahora ponemos el archivo ports de apache2 y añadimos Listen 7654 y volvemos a hacer reload.
 
 
+## 2 páginas en la misma URL pero distinto puerto
+
+1. Lo primero es crear las carpetas con sudo mkdir -p /var/www/sm/web /var/www/smr/intranet y añadiremos un fichero index.html e intranet.html y luego añadimos el contenido a nuestras páginas.
+2. Luego creamos el usuario con el que accederemos a la intranet con sudo htpasswd -c /etc/apache2/htpasswd admin y pedirá que pongamos una contraseña 2 veces, que será con la que accederemos a la página.
+3. Ahora vamos a la carpeta de puertos que está en apache y le diremos que escuche el 9999.
+4. Y copiamos el archivo 00 de la carpeta sites-available y lo llamamos SMR.conf.
+5. Así tendría que quedar:
+<VirtualHost *:80>
+        ServerName www.smr.com
+        DocumentRoot /var/www/smr/web
+</VirtualHost>
+
+<VirtualHost *:9999>
+        ServerName www.smr.com
+        DocumentRoot /var/www/smr/intranet
+        DirectoryIndex intranet.html
+
+
+        <Directory /var/www/smr/intranet>
+                AuthType Basic
+                AuthName "Intranet SMR"
+                AuthUserFile /etc/apache2/.htpasswd
+                Require valid-user
+        </Directory>
+</VirtualHost>
+6. Y ahora habilitamos y deshabilitamos con los comandos sudo a2ensite smr.conf sudo a2dissite 000-default.conf sudo apachectl configtest sudo systemctl restart apache2
+7. Y ahora ya podríamos acceder por IP.
+8. Pero para acceder por URL tenemos que modifica el archivo que está en System32 srivers etc hosts, pero si es linux sudo nano /etc/hosts
+9. Y ya dentro añadimos en otra linea nueva 192.168.56.10 que es la IP del server (www.smr.com).
