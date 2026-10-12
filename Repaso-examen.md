@@ -90,6 +90,7 @@
                 Require valid-user
         </Directory>
 </VirtualHost>
+
 6. Y ahora habilitamos y deshabilitamos con los comandos sudo a2ensite smr.conf sudo a2dissite 000-default.conf sudo apachectl configtest sudo systemctl restart apache2
 7. Y ahora ya podríamos acceder por IP.
 8. Pero para acceder por URL tenemos que modifica el archivo que está en System32 srivers etc hosts, pero si es linux sudo nano /etc/hosts
