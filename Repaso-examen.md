@@ -21,4 +21,21 @@
 12. Y cuando haya terminado la instalación le daremos a Reboot Now.
 
 
-## Red
+## Red host-only y configuración del 2º adaptador
+
+1. Le damos a Achivo, luego herramientas y luego a Red, y le daremos a crear.
+2. Le daremos a doble clic y deshabilitaremos a DHCP y le daremos a aplicar.
+3. En la configuración de la máquina y en el apartado de red seleccionaremos el 2º adaptador.
+4. Y habilitaremos y conectaremos a Adaptador Only, y le damos a aceptar e iniciamos la máquina.
+5. Ahora si ponemos ls /etc/netplan veremos el archivo para editar la IP.
+6. Pondremos sudo nano y el archivo con la raíz.
+7. Ahora escribiremos enp0s8 a la misma altura de enp0s3 y debajo escribiremos dhcp4: false.
+8. Y en la misma altura de dhcp4 pondremos addresses.
+9. Y debajo escribimos la IP.
+10. Y ya podremos salir del archivo y escribir sudo netplan try y le damos al enter.
+
+
+## Conectarse desde la máquina real
+
+1. Lo primero es ver si hay conectividad haciendo ping a la IP que ya hemos configurado.
+2. Cuando ya lo hayamos comprobado 
