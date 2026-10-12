@@ -71,6 +71,7 @@
 3. Ahora vamos a la carpeta de puertos que está en apache y le diremos que escuche el 9999.
 4. Y copiamos el archivo 00 de la carpeta sites-available y lo llamamos SMR.conf.
 5. Así tendría que quedar:
+
 <VirtualHost *:80>
         ServerName www.smr.com
         DocumentRoot /var/www/smr/web
