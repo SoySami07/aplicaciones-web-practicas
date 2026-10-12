@@ -35,7 +35,7 @@ Nosotros en nuestro caso hemos tenido un error
 Ahora fijamos la IP de la interfaz neplan
 <img width="1920" height="1080" alt="Captura de 2026-09-24 17-44-31" src="https://github.com/user-attachments/assets/f9ba5cb8-48a0-46f0-94c9-321c5eab7262" />
 
-## Crear read host-only
+## Crear red host-only
 
 1. Seleccionamos Archivo, luego herramientas y red
 2. Pulsamos en crear y hacemos doble clic en servidor DHCP y lo deshabilitamos y aplicamos
