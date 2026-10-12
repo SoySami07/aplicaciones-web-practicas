@@ -38,4 +38,9 @@
 ## Conectarse desde la máquina real
 
 1. Lo primero es ver si hay conectividad haciendo ping a la IP que ya hemos configurado.
-2. Cuando ya lo hayamos comprobado 
+2. Cuando ya lo hayamos comprobado pondremos en la terminal ssh Usuario@IP del servidor.
+3. Escribiremos la contraseña de la MV y estaremos dentro.
+
+
+## Instalación Apache2
+
