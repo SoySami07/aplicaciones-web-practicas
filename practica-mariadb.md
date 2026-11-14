@@ -1,6 +1,6 @@
 # Práctica: MariaDB y PHP en Ubuntu 24.04 (LAMP)
 
-**Nombre:** [tu nombre] · **Curso:** [curso] · **Fecha:** [fecha]
+Sami Darwish 2ºSMX
 
 ## 1. Preparación
 ```bash
