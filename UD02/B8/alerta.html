@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Mensaje urgente</title>
+    <meta name="description" content="Alerta de ciberseguridad con etiquetas anidadas">
+    <meta name="author" content="Sami ElKhalil Darwish">
+</head>
+<body>
+    <!--
+        Orden de cierre: </u></i></b>.
+        Se cierra primero la última etiqueta que se abrió (la u), después la i y al final la b.
+        Así las etiquetas quedan bien anidadas, una dentro de otra, sin cruzarse.
+    -->
+    <p><b><i><u>Alerta: cambia tu contraseña de inmediato.</u></i></b></p>
+
+    <!-- Versión mal cerrada: las etiquetas se cruzan. El navegador intenta corregirlo,
+         pero el resultado no es fiable y el código no es válido. -->
+    <p><b><i><u>Alerta mal cerrada: no uses este orden.</b></i></u></p>
+</body>
+</html>
