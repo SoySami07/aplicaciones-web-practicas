@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de mi setup</title>
+    <meta name="description" content="Galería con la misma imagen en distintos tamaños">
+    <meta name="author" content="Sami ElKhalil Darwish">
+</head>
+<body>
+    <!--
+        Pregunta: ¿por qué se recomienda style frente a width y height?
+        Porque el atributo style tiene prioridad y evita que una hoja de estilos
+        cambie el tamaño de la imagen, además deja el aspecto en CSS
+        y no mezclado con el significado en HTML.
+    -->
+    <h1>Galería de mi setup</h1>
+
+    <h2>Tamaño original</h2>
+    <img src="imagenes/setup.jpg" alt="Mi setup de escritorio">
+
+    <h2>200 x 150 con style</h2>
+    <img src="imagenes/setup.jpg" alt="Mi setup de escritorio en pequeño" style="width:200px; height:150px;">
+
+    <h2>200 x 150 con width y height</h2>
+    <img src="imagenes/setup.jpg" alt="Mi setup de escritorio con atributos" width="200" height="150">
+
+    <h2>Imagen rota a propósito</h2>
+    <!-- El nombre del archivo está mal escrito: el navegador muestra el texto alt -->
+    <img src="imagenes/setup_roto.jpg" alt="No se encuentra la imagen del setup">
+</body>
+</html>

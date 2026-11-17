@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Inicio</title>
+    <meta name="description" content="Página de inicio de mi mini web">
+    <meta name="author" content="Sami ElKhalil Darwish">
+</head>
+<body>
+    <p>
+        <a href="index.html">Inicio</a> |
+        <a href="sobre-mi.html">Sobre mí</a> |
+        <a href="contacto.html">Contacto</a>
+    </p>
+    <h1>Bienvenido a mi mini web</h1>
+    <p>Esta es mi primera web de tres páginas.</p>
+    <img src="imagenes/setup.jpg" alt="Mi setup de escritorio" width="300">
+</body>
+</html>

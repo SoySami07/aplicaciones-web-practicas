@@ -1,0 +1,10 @@
+# Nivel 2 · A4. Formatos de imagen
+
+| Abreviatura | Nombre completo | Extensión |
+|---|---|---|
+| GIF | Graphics Interchange Format | `.gif` |
+| JPEG | Joint Photographic Experts Group | `.jpg` o `.jpeg` |
+| PNG | Portable Network Graphics | `.png` |
+| SVG | Scalable Vector Graphics | `.svg` |
+| ICO | Icon (formato de icono de Windows) | `.ico` |
+| APNG | Animated Portable Network Graphics | `.apng` |
